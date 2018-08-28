@@ -1,0 +1,172 @@
+body {
+    height: 98vh;
+    background-color: brown;
+    margin: 30px;
+    color: white;
+}
+
+main {
+    grid-template-columns: repeat(45%,55%);
+    grid-template-rows: repeat(7,1fr);
+    display: grid;
+    grid-gap: 5px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.textBoxOne {
+    background-color: red;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    grid-column: span 1;
+    grid-row: span 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+
+}
+
+.behappy {
+    padding-top: 150px;
+    font-size: 40px;
+    margin: auto;
+}
+
+.textBoxTwo {
+    background-color: darkcyan;
+    grid-column: span 1;
+    grid-row: span 1;
+    font-size: 23px;
+    margin: auto;
+    padding-left:5px;
+    padding-right:5px;
+    text-align: center;
+    height: 100%;
+
+}
+
+.textBoxThree {
+    background-color: darkcyan;
+    grid-column: span 1;
+    grid-row: span 1;
+    font-size: 23px;
+    margin: auto;
+    padding-left:5px;
+    padding-right:5px;
+    text-align: center;
+    height:100%;
+    padding-top: 30px;
+}
+
+.textBoxFour {
+    background-color: darkcyan;
+    grid-column: span 1;
+    grid-row: span 1;
+    font-size: 22px;
+    margin: auto;
+    padding-left:5px;
+    padding-right:5px;
+    text-align: center;
+    height: 100%;
+}
+
+
+.one {
+    background: url(flower.jpg);
+}
+
+
+.two {
+    background: url(light.jpg);
+    grid-column: span 1;
+}
+
+
+.three {
+    background: url(moped.jpg);
+    grid-column: span 2;
+    
+}
+
+
+.four {
+    background: url(sax.jpg);
+}
+
+
+.five {
+
+    grid-column: span 1;
+background: url(sign.jpg);
+
+}
+
+ .six {
+     grid-column: span 2;
+     background: url(tie.png);
+     
+ }
+
+ .photo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+
+ @media only screen and (min-width: 600px){
+
+    main {
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+    display: grid;
+    }
+    .textBoxOne {
+        height: 50%;
+    }
+
+    .textBoxThree {
+        position: relative;
+        bottom: 191px;
+        height: 90%;
+    }
+
+    .textBoxFour {
+        position: relative;
+        left:880px;
+    }
+    .behappy {
+        position: relative;
+        bottom: 100px;
+    }
+
+.four {
+    height: 50%;
+   position: relative;
+   right: 1171px;
+   top:195px;
+}
+.two {
+    height: 50%;
+    position: relative;
+
+}
+
+
+.one {
+height: 50%;
+position: relative;
+top:195px;
+left: 293px;
+}
+
+.three {
+    position: relative;
+    left: 293px;
+    bottom: 384px;
+    height: 100%;
+
+
+ }
